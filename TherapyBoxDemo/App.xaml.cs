@@ -22,7 +22,7 @@ namespace TherapyBoxDemo
         {
             InitializeComponent();
 
-			var page = FreshPageModelResolver.ResolvePageModel<MainPageModel>();
+			var page = FreshPageModelResolver.ResolvePageModel<HomePageModel>();
 			var navContainer = new FreshNavigationContainer(page);
 			MainPage = navContainer;
         }
